@@ -1,46 +1,35 @@
 .offers{
-    width: 65%;
-    height: 60vh;
-    display: flex;
-    margin: auto;
-    padding: 0 140px;
-    margin-bottom: 150px;
-    background: linear-gradient(180deg, #90afd1, #b3c2c010 60%);
-    display: flex;
-}
-.offers-left{
-    flex: 1;
+    width: 80%;
+    height: 90vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-}
-.offers-left h1{
-    color: black;
-    font-size: 80px;
-    font-weight: 600;
-}
-.offers-left p{
-    color: black;
-    font-size: 20px;
-    font-weight: 500;
-}
-.offers-left button{
-    color: black;
-    width: 282px;
-    height: 70px;
-    border-radius: 35px;
-    background: linear-gradient(60deg, #0b5ee4, #71a1d085);
-    border: none;
-    color: white;
-    font-size: 22px;
-    font-weight: 500;
-    margin-top: 30px;
-    cursor: pointer;
-}
-.offers-right{
-    flex: 1;
+    margin: auto;
+    margin-bottom: 150px;
+    background: linear-gradient(180deg, #90afd1, #b3c2c0 60%);
     display: flex;
+    align-items: center;
     justify-content: center;
-    padding-top: 50px;
-        
+    padding: 0 40px;
+}
+
+.custom{
+    width: 80%;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+}
+.custom_left {
+    height: 90%;
+    width: 45%;
+    border: 2px solid black;
+}
+
+.custom_right{
+    height: 90%;
+    width: 45%;
+    border: 2px solid black;
 }

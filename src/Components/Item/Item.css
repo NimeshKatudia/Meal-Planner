@@ -6,24 +6,16 @@
     margin: 6px 0px;
 }
 
-.item-prices{
+.submit{
     display: flex;
-    gap: 20px;
 }
-
-.item-price-new{
-    color: black;
-    font-size: 18px;
-    font-weight: 600;
+button{
+    width: 80px;
+    margin-left: 90px;
+    background-color: rgb(116, 215, 197);
+    border: none;
+    border-radius: 15px;
 }
-
-.item-price-old{
-    color: red;
-    font-size: 18px;
-    font-weight: 500;
-    text-decoration: line-through;
-}
-.item:hover{
-    transform: scale(1.05);
-    transition: 0.6s;
+button:hover{
+    cursor: pointer;
 }
