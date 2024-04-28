@@ -1,37 +1,48 @@
 {
-    "Day 1": {
-        "Breakfast": "Scrambled eggs with spinach and tomatoes",
-        "Lunch": "Grilled chicken salad with mixed greens, cucumbers, and vinaigrette dressing",
-        "Dinner": "Baked salmon with roasted asparagus and quinoa"
+    "meal_plan": {
+        "day_1": {
+            "breakfast": "Scrambled eggs with saut\u00e9ed vegetables",
+            "lunch": "Grilled chicken salad with balsamic vinaigrette",
+            "dinner": "Baked salmon with quinoa and roasted asparagus"
+        },
+        "day_2": {
+            "breakfast": "Greek yogurt with berries and honey",
+            "lunch": "Turkey and avocado wrap with side salad",
+            "dinner": "Shrimp stir-fry with mixed vegetables and brown rice"
+        },
+        "day_3": {
+            "breakfast": "Oatmeal with sliced bananas and a drizzle of maple syrup",
+            "lunch": "Mediterranean chickpea salad with feta cheese",
+            "dinner": "Beef and vegetable kebabs with couscous"
+        },
+        "day_4": {
+            "breakfast": "Smoothie with spinach, mango, and coconut milk",
+            "lunch": "Grilled shrimp Caesar salad",
+            "dinner": "Vegetable stir-fry with tofu and quinoa"
+        },
+        "day_5": {
+            "breakfast": "Chia seed pudding with almond slices and fruit",
+            "lunch": "Caprese salad with grilled chicken",
+            "dinner": "Lemon herb roasted chicken with sweet potato mash"
+        },
+        "day_6": {
+            "breakfast": "Whole grain toast with avocado and cherry tomatoes",
+            "lunch": "Black bean and corn salad with lime dressing",
+            "dinner": "Pork tenderloin with roasted vegetables"
+        },
+        "day_7": {
+            "breakfast": "Ricotta and honey on whole wheat crackers",
+            "lunch": "Tuna salad lettuce wraps",
+            "dinner": "Baked cod with lemon and herbs, served with quinoa"
+        }
     },
-    "Day 2": {
-        "Breakfast": "Greek yogurt with berries and honey",
-        "Lunch": "Turkey and avocado wrap with lettuce and tomato",
-        "Dinner": "Stir-fried tofu with broccoli, bell peppers, and brown rice"
-    },
-    "Day 3": {
-        "Breakfast": "Oatmeal topped with sliced bananas and almonds",
-        "Lunch": "Quinoa salad with roasted vegetables and balsamic glaze",
-        "Dinner": "Grilled shrimp skewers with steamed green beans and couscous"
-    },
-    "Day 4": {
-        "Breakfast": "Smoothie made with almond milk, spinach, banana, and berries",
-        "Lunch": "Caprese salad with fresh mozzarella, tomatoes, basil, and balsamic reduction",
-        "Dinner": "Vegetable stir-fry with tofu and noodles"
-    },
-    "Day 5": {
-        "Breakfast": "Whole grain toast with avocado and sliced tomatoes",
-        "Lunch": "Mediterranean quinoa bowl with chickpeas, olives, cucumbers, and feta cheese",
-        "Dinner": "Grilled chicken breast with roasted sweet potatoes and steamed broccoli"
-    },
-    "Day 6": {
-        "Breakfast": "Egg white omelette with mushrooms, onions, and peppers",
-        "Lunch": "Spinach and feta stuffed chicken breast with roasted carrots",
-        "Dinner": "Baked cod with lemon and herbs, served with quinoa pilaf"
-    },
-    "Day 7": {
-        "Breakfast": "Chia seed pudding with coconut milk and sliced strawberries",
-        "Lunch": "Vegetable and tofu sushi rolls with miso soup",
-        "Dinner": "Grilled steak with roasted Brussels sprouts and mashed sweet potatoes"
-    }
+    "snacks": [
+        "Vegetable sticks with hummus",
+        "Greek yogurt with granola",
+        "Mixed nuts and dried fruits",
+        "Rice cakes with almond butter",
+        "Cucumber slices with guacamole",
+        "Homemade trail mix",
+        "Sliced apples with cinnamon"
+    ]
 }

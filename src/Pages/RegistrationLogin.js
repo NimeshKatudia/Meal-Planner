@@ -4,7 +4,7 @@ import Udata from "./LoginSignUp.js";
 const RegistrationLogin = () => {
   const [formData, setFormData] = useState({
     name: Udata.name,
-    email: Udata.name,
+    email: Udata.email,
     password: Udata.password,
   });
 

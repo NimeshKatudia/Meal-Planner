@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPlusCircle } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPlusCircle } from "@fortawesome/free-solid-svg-icons";
 import "./Offers.css";
 
 export const Offers = () => {
@@ -9,20 +9,39 @@ export const Offers = () => {
   const [lunchPreference, setLunchPreference] = useState("");
   const [snackPreference, setSnackPreference] = useState("");
   const [dinnerPreference, setDinnerPreference] = useState("");
-  const [allergens, setAllergens] = useState(["Peanuts", "Tree Nuts", "Egg", "Fish"]);
+  const [allergens, setAllergens] = useState([
+    "Peanuts",
+    "Tree Nuts",
+    "Egg",
+    "Fish",
+  ]);
 
   // Function to handle form submission
   const handleSubmit = (event) => {
     // Prevent default form submission behavior
     event.preventDefault();
 
-    // Log or process the input values as needed
-    console.log("Breakfast Preference:", breakfastPreference);
-    console.log("Lunch Preference:", lunchPreference);
-    console.log("Snack Preference:", snackPreference);
-    console.log("Dinner Preference:", dinnerPreference);
+    // Create the content to be written to the file
+    const fileContent = `
+      Breakfast Preference: ${breakfastPreference}
+      Lunch Preference: ${lunchPreference}
+      Snack Preference: ${snackPreference}
+      Dinner Preference: ${dinnerPreference}
+      Allergens: ${allergens.join(", ")}
+    `;
 
-    // You can further process or store the input values here
+    // Function to download the file
+    const downloadTxtFile = (content) => {
+      const element = document.createElement("a");
+      const file = new Blob([content], { type: "text/plain" });
+      element.href = URL.createObjectURL(file);
+      element.download = "output.txt";
+      document.body.appendChild(element);
+      element.click();
+    };
+
+    // Download the file
+    downloadTxtFile(fileContent);
   };
 
   // Function to add a new allergen
@@ -30,13 +49,13 @@ export const Offers = () => {
     // Prompt user to enter a new allergen
     const newAllergen = prompt("Enter a new allergen:");
     if (newAllergen) {
-      setAllergens(prevAllergens => [...prevAllergens, newAllergen]);
+      setAllergens((prevAllergens) => [...prevAllergens, newAllergen]);
     }
   };
 
   return (
     <div className="offers">
-      <h1>Hello</h1>
+      <h1>Customizations & Allergies</h1>
       <div className="custom">
         <div className="custom_left">
           <h2>Any Likings For Today?</h2>
@@ -77,7 +96,9 @@ export const Offers = () => {
                 onChange={(e) => setDinnerPreference(e.target.value)}
               />
             </div>
-            <button type="submit">Save Preferences</button>
+            <button className="save" type="submit">
+              Save Preferences
+            </button>
           </form>
         </div>
         <div className="custom_right">
