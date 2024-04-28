@@ -9,7 +9,7 @@ const Item = (props) => {
 
       <div className="submit">
         <p>{props.name}</p>
-        <button>Hello</button>
+        <button className="selectbtn">Select</button>
       </div>
     </div>
   );

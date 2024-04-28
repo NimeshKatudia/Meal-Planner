@@ -56,6 +56,7 @@ export const Offers = () => {
   return (
     <div className="offers">
       <h1>Customizations & Allergies</h1>
+      <hr />
       <div className="custom">
         <div className="custom_left">
           <h2>Any Likings For Today?</h2>

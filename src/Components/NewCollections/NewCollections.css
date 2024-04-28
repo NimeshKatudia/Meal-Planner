@@ -1,29 +1,45 @@
-.new-collections{
+.plan{
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 10px;
     margin-bottom: 100px;
+    height: auto;
+
 }
 
-.new-collections h1{
+.plan h1{
     color: black;
     font-size: 50px;
     font-weight: 600;
 }
-.new-collections hr{
+.plan hr{
     width: 200px;
     height: 6px;
     border-radius: 10px;
     background-color: rgb(42, 3, 3);
 }
 
-.collections{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin-top: 50px;
-    gap: 30px;
+.plan-img img{
+     width: 99.99vw;
+     opacity: 80%;
+     background-color: black;
+     z-index: -1;
 }
-.collections:hover{
-    cursor: pointer;
+.plan-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+.plan-img .card{
+    background-color: whitesmoke;
+    border: 2px;
+    z-index: 999;
+    border-radius: 5%;
+    position: absolute;
+    height: 90%; 
+  width: 40%;
+  opacity: 91%;
+
+}
+
