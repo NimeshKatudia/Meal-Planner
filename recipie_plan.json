@@ -1,0 +1,11 @@
+{
+    "Day 1 Recipe": {
+        "Breakfast": "Scrambled eggs with spinach and tomatoes",
+        "Lunch": "Grilled chicken salad with mixed greens, cucumbers, and balsamic vinaigrette",
+        "Dinner": "Baked salmon with roasted asparagus and quinoa",
+        "Snacks": [
+            "Carrot sticks with hummus",
+            "Apple slices with almond butter"
+        ]
+    }
+}

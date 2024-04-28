@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "7 Days": {
     "Monday": {
@@ -46,3 +47,70 @@
     "Day 7": "Trail mix"
   }
 }
+=======
+{
+    "Day 1": {
+        "Breakfast": "Scrambled eggs with spinach and tomatoes",
+        "Lunch": "Grilled chicken salad with mixed greens, cucumbers, and balsamic vinaigrette",
+        "Dinner": "Baked salmon with roasted asparagus and quinoa",
+        "Snacks": [
+            "Carrot sticks with hummus",
+            "Apple slices with almond butter"
+        ]
+    },
+    "Day 2": {
+        "Breakfast": "Greek yogurt with berries and granola",
+        "Lunch": "Turkey and avocado wrap with whole grain tortilla",
+        "Dinner": "Vegetable stir-fry with tofu and brown rice",
+        "Snacks": [
+            "Cucumber slices with tzatziki sauce",
+            "Trail mix (without peanuts)"
+        ]
+    },
+    "Day 3": {
+        "Breakfast": "Oatmeal with sliced bananas and honey",
+        "Lunch": "Quinoa salad with cherry tomatoes, bell peppers, and feta cheese",
+        "Dinner": "Grilled shrimp with zucchini noodles and marinara sauce",
+        "Snacks": [
+            "Rice cakes with avocado",
+            "Mixed fruit bowl"
+        ]
+    },
+    "Day 4": {
+        "Breakfast": "Whole grain toast with avocado and poached eggs",
+        "Lunch": "Spinach and feta stuffed bell peppers",
+        "Dinner": "Grilled steak with roasted sweet potatoes and green beans",
+        "Snacks": [
+            "Celery sticks with peanut-free sunflower seed butter",
+            "Homemade popcorn"
+        ]
+    },
+    "Day 5": {
+        "Breakfast": "Smoothie with spinach, banana, almond milk, and protein powder",
+        "Lunch": "Mediterranean chickpea salad with olives and cucumbers",
+        "Dinner": "Baked chicken with broccoli and quinoa",
+        "Snacks": [
+            "Edamame beans",
+            "Banana with dark chocolate"
+        ]
+    },
+    "Day 6": {
+        "Breakfast": "Whole grain pancakes with berries and maple syrup",
+        "Lunch": "Caprese salad with fresh mozzarella, tomatoes, and basil",
+        "Dinner": "Vegetable curry with tofu and brown rice",
+        "Snacks": [
+            "Sliced bell peppers with guacamole",
+            "Rice crackers with salsa"
+        ]
+    },
+    "Day 7": {
+        "Breakfast": "Egg white omelette with spinach, mushrooms, and peppers",
+        "Lunch": "Quinoa and black bean burrito bowl with salsa and avocado",
+        "Dinner": "Grilled fish tacos with cabbage slaw and corn tortillas",
+        "Snacks": [
+            "Greek yogurt with honey",
+            "Mixed nuts (without peanuts)"
+        ]
+    }
+}
+>>>>>>> 63889f482da8050ec71260f3c8f212291d7c7831

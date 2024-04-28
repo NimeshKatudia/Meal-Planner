@@ -1,3 +1,4 @@
+
 .item{
     width: 350px;
 }
@@ -8,14 +9,28 @@
 
 .submit{
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
-button{
+.submit h2{
+    font-size: 6rem;
+}
+.submit p{
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+.selectbtn button{
     width: 80px;
     margin-left: 90px;
     background-color: rgb(116, 215, 197);
     border: none;
     border-radius: 15px;
 }
-button:hover{
+.selectbtn button:hover{
     cursor: pointer;
+}
+.selectbtn{
+   background-color: #3C3E4F;
+   font-size: large;
+   width: 20%;
 }

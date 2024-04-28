@@ -9,7 +9,6 @@ const Item = (props) => {
         <p>Breakfast: {props.breakfast}</p>
         <p>Lunch: {props.lunch}</p>
         <p>Dinner: {props.dinner}</p>
-        <button>Hello</button>
       </div>
     </div>
   );
