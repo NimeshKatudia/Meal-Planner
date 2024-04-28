@@ -1,0 +1,28 @@
+
+.item{
+    width: 350px;
+}
+
+.item p{
+    margin: 6px 0px;
+}
+
+.submit{
+    display: flex;
+    justify-content: space-between;
+}
+.selectbtn button{
+    width: 80px;
+    margin-left: 90px;
+    background-color: rgb(116, 215, 197);
+    border: none;
+    border-radius: 15px;
+}
+.selectbtn button:hover{
+    cursor: pointer;
+}
+.selectbtn{
+   background-color: #3C3E4F;
+   font-size: large;
+   width: 20%;
+}
