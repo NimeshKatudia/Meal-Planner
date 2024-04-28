@@ -1,48 +1,48 @@
 {
-    "meal_plan": {
-        "day_1": {
-            "breakfast": "Scrambled eggs with saut\u00e9ed vegetables",
-            "lunch": "Grilled chicken salad with balsamic vinaigrette",
-            "dinner": "Baked salmon with quinoa and roasted asparagus"
-        },
-        "day_2": {
-            "breakfast": "Greek yogurt with berries and honey",
-            "lunch": "Turkey and avocado wrap with side salad",
-            "dinner": "Shrimp stir-fry with mixed vegetables and brown rice"
-        },
-        "day_3": {
-            "breakfast": "Oatmeal with sliced bananas and a drizzle of maple syrup",
-            "lunch": "Mediterranean chickpea salad with feta cheese",
-            "dinner": "Beef and vegetable kebabs with couscous"
-        },
-        "day_4": {
-            "breakfast": "Smoothie with spinach, mango, and coconut milk",
-            "lunch": "Grilled shrimp Caesar salad",
-            "dinner": "Vegetable stir-fry with tofu and quinoa"
-        },
-        "day_5": {
-            "breakfast": "Chia seed pudding with almond slices and fruit",
-            "lunch": "Caprese salad with grilled chicken",
-            "dinner": "Lemon herb roasted chicken with sweet potato mash"
-        },
-        "day_6": {
-            "breakfast": "Whole grain toast with avocado and cherry tomatoes",
-            "lunch": "Black bean and corn salad with lime dressing",
-            "dinner": "Pork tenderloin with roasted vegetables"
-        },
-        "day_7": {
-            "breakfast": "Ricotta and honey on whole wheat crackers",
-            "lunch": "Tuna salad lettuce wraps",
-            "dinner": "Baked cod with lemon and herbs, served with quinoa"
-        }
+  "7 Days": {
+    "Monday": {
+      "Breakfast": "Scrambled eggs with avocado toast",
+      "Lunch": "Grilled chicken salad",
+      "Dinner": "Spaghetti carbonara"
     },
-    "snacks": [
-        "Vegetable sticks with hummus",
-        "Greek yogurt with granola",
-        "Mixed nuts and dried fruits",
-        "Rice cakes with almond butter",
-        "Cucumber slices with guacamole",
-        "Homemade trail mix",
-        "Sliced apples with cinnamon"
-    ]
+    "Tuesday": {
+      "Breakfast": "Grek yogurt with mixed berries",
+      "Lunch": "Turkey and cheese sandwich",
+      "Dinner": "Baked salmon with roasted vegetables"
+    },
+    "Wednesday": {
+      "Breakfast": "Oatmeal with banana slices",
+      "Lunch": "Quinoa and black bean bowl",
+      "Dinner": "Beef stir-fry with broccoli"
+    },
+    "Thursday": {
+      "Breakfast": "Smoothie with spinach and pineapple",
+      "Lunch": "Caprese salad with balsamic glaze",
+      "Dinner": "Vegetable lasagna"
+    },
+    "Friday": {
+      "Breakfast": "Whole grain pancakes with maple syrup",
+      "Lunch": "Mediterranean wrap with hummus",
+      "Dinner": "Grilled shrimp with couscous"
+    },
+    "Saturday": {
+      "Breakfast": "Avocado toast with poached eggs",
+      "Lunch": "Asian noodle soup",
+      "Dinner": "Tandoori chicken with naan bread"
+    },
+    "Sunday": {
+      "Breakfast": "Fruit smoothie bowl with granola",
+      "Lunch": "Caesar salad with grilled chicken",
+      "Dinner": "Roast beef with mashed potatoes"
+    }
+  },
+  "Snacks": {
+    "Day 1": "Mixed nuts",
+    "Day 2": "Yogurt with honey",
+    "Day 3": "Carrot sticks with hummus",
+    "Day 4": "Apple slices with peanut butter",
+    "Day 5": "Cheese and crackers",
+    "Day 6": "Popcorn",
+    "Day 7": "Trail mix"
+  }
 }

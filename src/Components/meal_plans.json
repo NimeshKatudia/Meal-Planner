@@ -1,0 +1,18 @@
+{
+    "7 Days": {
+        "Sunday": {
+            "Breakfast": "Fruit smoothie bowl with granola",
+            "Lunch": "Caesar salad with grilled chicken",
+            "Dinner": "Roast beef with mashed potatoes"
+        }
+    },
+    "Snacks": {
+        "Day 1": "Mixed nuts",
+        "Day 2": "Yogurt with honey",
+        "Day 3": "Carrot sticks with hummus",
+        "Day 4": "Apple slices with peanut butter",
+        "Day 5": "Cheese and crackers",
+        "Day 6": "Popcorn",
+        "Day 7": "Trail mix"
+    }
+}

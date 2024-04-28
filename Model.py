@@ -6,12 +6,34 @@ from flask import send_file
 
 app = Flask(__name__)
 
+
+
+import os
+import glob
+
+content = ""
+
+# Path to the downloads folder
+downloads_path = r"C:\Users\Abhishek Sharma\output.txt"
+
+# Read all files in downloads folder and concatenate the content into a single string
+for file_path in glob.glob(os.path.join(downloads_path, '*.txt')):
+    with open(file_path, 'r') as file:
+        content += file.read()
+
+    # Delete the file after reading
+    os.remove(downloads_path)
+
+
+
+
+
 var = "Genrate an Meal Plan For me i am alergic to Peaunts"
 
 client = Client()
 response = client.chat.completions.create(
     model="gpt-3.5-turbo",
-    messages=[{"role": "user", "content": var + "JSON RESPONCE ONLY NO CODE BLOCK For 7 Days and Snaks section as Well along with Break Fast, Lunch, Dinner " + "Respond in English" + "Genrate it in a way that i can Jsonify that content" + "Dont write it like Code Block or anything and Just give main content dont write anything else"}],
+    messages=[{"role": "user", "content": content + "JSON RESPONCE ONLY NO CODE BLOCK For 7 Days and Snaks section as Well along with Break Fast, Lunch, Dinner " + "Respond in English" + "Genrate it in a way that i can Jsonify that content" + "Dont write it like Code Block or anything and Just give main content dont write anything else"}],
     language = "en",
 )
 print(response.choices[0].message.content)
@@ -43,4 +65,4 @@ def send_json():
     return send_file('meal_plan.json', download_name='meal_plan.json')
 
 if __name__ == "__main__":
-    app.run(debug=True,port=5000)
+    app.run(debug=True, port=5000)

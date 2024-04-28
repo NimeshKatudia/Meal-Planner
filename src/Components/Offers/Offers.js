@@ -1,9 +1,10 @@
-import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPlusCircle } from "@fortawesome/free-solid-svg-icons";
+import React, { useEffect, useState } from "react";
 import "./Offers.css";
 
 export const Offers = () => {
+  const [data, setData] = useState(null);
   // State variables to store the input values and list of allergens
   const [breakfastPreference, setBreakfastPreference] = useState("");
   const [lunchPreference, setLunchPreference] = useState("");
